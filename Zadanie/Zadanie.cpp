@@ -14,6 +14,12 @@ int main()
 	std::cin >> lvl;
 
 	std::cout << race << " " << "\n";
+	
+	std::string first = "OrcShaman", second = "80";
+
+	std::cout << first + second << "\n";
+	std::cout << first.length() << "\n";
+	std::cout << second.length() << "\n";
 
 	std::cin;
 	return 0;
