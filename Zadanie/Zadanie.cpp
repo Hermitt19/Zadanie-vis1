@@ -1,26 +1,18 @@
 ﻿#include <iostream>
-#include <stdint.h>
-#include <iomanip>
 #include <string>
 
 int main()
 {
-	std::cout << "Enter your race:";
-	std::string race;
-	std::cin >> race;
+	std::string variable = "Welcome to the club buddy";
 
-	std::cout << "Enter your lvl:";
-	std::string lvl;
-	std::cin >> lvl;
+	std::cout << variable << "\n";
 
-	std::cout << race << " " << "\n";
-	
-	std::string first = "OrcShaman", second = "80";
+	std::cout << variable.length() << "\n";
 
-	std::cout << first + second << "\n";
-	std::cout << first.length() << "\n";
-	std::cout << second.length() << "\n";
 
-	std::cin;
-	return 0;
+	std::cout << variable.front() << "\n";
+	// либо std::cout << variable[0] << "\n";
+
+	std::cout << variable.back() << "\n";
+	// либо std::cout << variable[variable.lenght()-1] << "\n";
 }
